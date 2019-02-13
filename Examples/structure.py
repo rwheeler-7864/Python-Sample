@@ -21,11 +21,25 @@ print(route, type(route)) #prints:866 <class 'str'>
 
 
 ##tuple example!! 
-#---! [doesn't store data types] --!#
+#---! [doesn't store data types / / takes copies of the lists and stores them in memory] --!#
 ##('blue, 'green', 'blue')
 
 ####Creating Lists#### 
-#---! [doesn't store data types] --!#
+#---! [doesn't store data types / takes copies of the lists and stores them in memory] --!#
 ####[1, 2, 3, 4, 5]
 ####['alpha', 'bravo', 'charlie'
 ####['zebra, 49, -987, 'elephant',200]
+
+####Methord [Simply a function that is called for a paticular object]
+
+####functonName(arguments) e.g objectName.methordName(argument)
+####[dot ....  (above) - used to access the objects attributes]
+
+####The if statement example block structure
+if boolean_express1:
+    suite1
+elif boolean_expression2:
+    suit2
+elif boolean_expressionN:
+    suiteN       
+else:else_suite     
