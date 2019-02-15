@@ -1,4 +1,4 @@
-#Classes defined example
+#Classes defined example (optional feature of python)
 
 class Worker:
     def __init__(self, name, pay):      #initialise when created
