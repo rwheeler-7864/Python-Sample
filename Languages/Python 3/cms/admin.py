@@ -2,9 +2,9 @@
 
 
 self = ('self')
-dashboard  = 'dashboard'
-posts  = 'posts'
-users  = 'users'
+dashboard  = ('dashboard')
+posts  = ('posts')
+users  = ('users')
 
 # Common base for all links 
     
@@ -15,5 +15,6 @@ class menu:
         self.users = users
         menu.__repr__
 
-print(menu)    
+print(menu)
+
 
