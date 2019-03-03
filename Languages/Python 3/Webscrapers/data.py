@@ -1,8 +1,8 @@
 from lxml import html
 import requests
+import bs4
 
-
-# Requests API
+# Requests API - Defining the data from the scrape + using beautifulsoup
 
 response = requests.get('http://www.devbk.me')
 response.content
