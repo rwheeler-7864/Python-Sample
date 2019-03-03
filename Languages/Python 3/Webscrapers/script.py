@@ -1,16 +1,31 @@
-import requests
 from lxml import html
-from bs4 import BeautifulSoup
+import requests
+
+# Define ()
+
+#requests = ('requests')
+#response = ('response')
+#status_code = ('status_code')
+#url = ('http://www.devbk.me')
+#data = ('page')
 
 
-# Get the webpage
-r = requests.get, ('http://devbk.me')                         #fine!!
+# Data want to pull from script.
 
-# Making the soup
+title = ('title')                               # Title of page
+h1 = ('h1')                                     # Heading 1 of articles
+print(title + h1)
 
+# Requests API
 
-markup = html
-soup = 	BeautifulSoup(markup, "html.parser")
-len(soup)
+response = requests.get('http://www.devbk.me')
+response.content
+response.text
+if response.status_code == 200:
+    print('Success!')
+elif response.status_code == 404:
+    print('Not found!')
 
-print(soup)
+print (response)
+print (response.content)
+print (response.text)
